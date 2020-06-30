@@ -14,8 +14,8 @@ Vagrant.configure("2") do |config|
   end
   
    config.vm.define "db" do |db|
-    app.vm.box = "ubuntu/xenial64"
-    app.vm.network "private_network", ip: "192.168.10.200"
-    app.vm.provision "shell", path: "environment/db/provision.sh", privileged: false
+    db.vm.box = "ubuntu/xenial64"
+    db.vm.network "private_network", ip: "192.168.10.200"
+    db.vm.provision "shell", path: "environment/db/provision.sh", privileged: false
   end
 end
