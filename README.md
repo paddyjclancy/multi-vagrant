@@ -29,3 +29,4 @@ cd test
 rake spec
 ```
 - Test 1
+- Test 2
