@@ -37,3 +37,4 @@ rake spec
 - Test 6
 - Test 7
 - Merge test
+Merge test 2
