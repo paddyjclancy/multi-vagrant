@@ -35,3 +35,4 @@ rake spec
 - Test 5
 - Test 5
 - Test 6
+- Test 7
