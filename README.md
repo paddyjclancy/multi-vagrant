@@ -38,3 +38,4 @@ rake spec
 - Test 7
 - Merge test
 Merge test 2
+Merge test 3
