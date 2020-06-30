@@ -28,3 +28,4 @@ You can test your database is working correctly by running the test suite in the
 cd test
 rake spec
 ```
+- Test 1
